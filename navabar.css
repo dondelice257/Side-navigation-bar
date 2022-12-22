@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+#body{
+    display: flex;
+    position: relative;
+    height: 100vh;
+    background-color: rgb(43, 43, 87);
+    width: 100%;
+}
+#welcome{
+    text-align: center;
+    position: relative;
+    top: 80px;
+    left: 30px;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+#welcome h1{
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#welcome h3{
+    font-size: 35px;
+    color: orange;
+
+}
+ul{
+    margin-top: 0px;
+    background-color: blue;
+    height: 100vh;
+    padding-top: 40px;
+    width: 350px;
+}
+li, a, i{
+    color: rgb(241, 222, 222);
+    font-size: 40px;
+    margin-right: 20px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+
+}
+li{
+    border-bottom: 2px solid gray;
+}
+
+#side-nav-account{
+    border-bottom: 4px solid white;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+i{
+    font-size: 25px;
+}
+#side-nav-account a{
+    font-size: 45px;
+    color: #fff;
+
+}
+#side-nav-account i{
+    font-size: 45px;
+    margin-left: 27px;
+    color: orange
+
+
+}
+i{
+    color: orange;
+}
+#welcome i{
+    font-size: 300px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: orange;
+
+}
+#side-nav-account a{
+    border: none;
+}
